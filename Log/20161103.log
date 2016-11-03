@@ -1,0 +1,13 @@
+2016/11/03 03:12:19 - FMain.actionPerformed(FMain.java:391)
+	FMain.btnManageTeams_Click(FMain.java:455)
+	FMain.ManageTeams(FMain.java:480)
+	Teams.DManageTeams.windowOpened(DManageTeams.java:226)
+	Teams.DManageTeams.LoadTeamsList(DManageTeams.java:281)
+	Utilities.CDatabaseUtilities.LoadListBoxFromDatabase(CDatabaseUtilities.java:245)
+null
+2016/11/03 03:12:24 - FMain.actionPerformed(FMain.java:392)
+	FMain.btnAssignTeamPlayers_Click(FMain.java:518)
+	FMain.AssignTeamPlayers(FMain.java:543)
+	TeamPlayers.DAssignTeamPlayers.windowOpened(DAssignTeamPlayers.java:242)
+	Utilities.CDatabaseUtilities.LoadComboBoxFromDatabase(CDatabaseUtilities.java:306)
+null
