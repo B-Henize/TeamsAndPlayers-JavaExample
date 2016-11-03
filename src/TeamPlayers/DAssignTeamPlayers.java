@@ -111,6 +111,7 @@ public class DAssignTeamPlayers extends JDialog implements ActionListener,
 			
 			// Listen for window events
 			this.addWindowListener( this );
+			
 			// Title
 			setTitle( "Assign Team Players" );
 				

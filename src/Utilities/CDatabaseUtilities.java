@@ -21,7 +21,7 @@ package Utilities;
 import java.sql.*;			// SQL stuff
 
 //import com.microsoft.sqlserver.jdbc.SQLServerDataSource;
-import com.microsoft.sqlserver.jdbc.*; // Recommended in OpenDatabaseConnectionSQLServer( )
+import com.microsoft.sqlserver.jdbc.*; // Recommended in OpenDatabaseConnectionSQLServer( ) (explanation there)
 
 import Utilities.CUserDataTypes.udtPlayerType;
 import Utilities.CUserDataTypes.udtTeamType;
@@ -48,7 +48,10 @@ public class CDatabaseUtilities
 	// ----------------------------------------------------------------------
 	// Name: OpenDatabaseConnection
 	// Abstract: Open a connection to the database for JDK 1.8 or JRE8
+	// 
+	// NOTE: NOT USED IN THIS VERSION, PURELY FOR EXAMPLE.
 	// ----------------------------------------------------------------------
+	/*
 	public static boolean OpenDatabaseConnection( )
 	{
 		boolean blnResult = false;
@@ -83,7 +86,7 @@ public class CDatabaseUtilities
 		
 		return blnResult;
 	}
-	
+	*/
 	
 	
 	// ----------------------------------------------------------------------

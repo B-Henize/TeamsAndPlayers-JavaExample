@@ -407,27 +407,8 @@ public class FMain extends JFrame implements ActionListener,
 	
 	
 	// ----------------------------------------------------------------------
-	// Name: btnAdd_Click
-	// Abstract: Add a team
-	// ----------------------------------------------------------------------
-	private void btnAdd_Click( )
-	{
-		try
-		{
-			
-		}
-		catch( Exception excError )
-		{
-			// Display Error Message
-			CUtilities.WriteLog( excError );
-		}
-	}
-	
-	
-	
-	// ----------------------------------------------------------------------
 	// Name: mniManageTeams_Click
-	// Abstract: Opens form to add, edit, and delete teams.
+	// Abstract: Menu item to open form to add, edit, and delete teams. 
 	// ----------------------------------------------------------------------
 	private void mniManageTeams_Click( )
 	{
@@ -446,7 +427,7 @@ public class FMain extends JFrame implements ActionListener,
 	
 	// ----------------------------------------------------------------------
 	// Name: btnManageTeams_Click
-	// Abstract: Opens form to add, edit, and delete teams.
+	// Abstract: Button to open form to add, edit, and delete teams.
 	// ----------------------------------------------------------------------
 	private void btnManageTeams_Click( )
 	{
@@ -465,7 +446,7 @@ public class FMain extends JFrame implements ActionListener,
 	
 	// ----------------------------------------------------------------------
 	// Name: ManageTeams
-	// Abstract: Opens form to add, edit, and delete teams.
+	// Abstract: This is the actual form to add, edit, and delete teams.
 	// ----------------------------------------------------------------------
 	private void ManageTeams( )
 	{
@@ -490,7 +471,7 @@ public class FMain extends JFrame implements ActionListener,
 	
 	// ----------------------------------------------------------------------
 	// Name: mniAssignTeamPlayers
-	// Abstract: Assign Team Players
+	// Abstract: Menu item to Assign Team Players
 	// ----------------------------------------------------------------------
 	private void mniAssignTeamPlayers_Click( )
 	{
@@ -509,7 +490,7 @@ public class FMain extends JFrame implements ActionListener,
 	
 	// ----------------------------------------------------------------------
 	// Name: btnAssignTeamPlayers_Click
-	// Abstract: Opens form to add and remove players from teams.
+	// Abstract: Button to open form to add and remove players from teams.
 	// ----------------------------------------------------------------------
 	private void btnAssignTeamPlayers_Click( )
 	{
@@ -528,7 +509,7 @@ public class FMain extends JFrame implements ActionListener,
 	
 	// ----------------------------------------------------------------------
 	// Name: AssignTeamPlayers
-	// Abstract: Opens form to add, edit, and delete teams.
+	// Abstract: This is the actual form to add, edit, and delete teams.
 	// ----------------------------------------------------------------------
 	private void AssignTeamPlayers( )
 	{
@@ -553,7 +534,7 @@ public class FMain extends JFrame implements ActionListener,
 	
 	// ----------------------------------------------------------------------
 	// Name: mniManagePlayers_Click
-	// Abstract: Opens form to add, edit, and delete teams.
+	// Abstract: Menu item that opens form to add, edit, and delete teams.
 	// ----------------------------------------------------------------------
 	private void mniManagePlayers_Click( )
 	{
@@ -572,7 +553,7 @@ public class FMain extends JFrame implements ActionListener,
 	
 	// ----------------------------------------------------------------------
 	// Name: btnManagePlayers_Click
-	// Abstract: Opens form to add, edit, and delete players.
+	// Abstract: Button that opens form to add, edit, and delete players.
 	// ----------------------------------------------------------------------
 	private void btnManagePlayers_Click( )
 	{
@@ -591,7 +572,7 @@ public class FMain extends JFrame implements ActionListener,
 	
 	// ----------------------------------------------------------------------
 	// Name: ManagePlayers
-	// Abstract: Opens form to add, edit, and delete players.
+	// Abstract: Actual form to add, edit, and delete players.
 	// ----------------------------------------------------------------------
 	private void ManagePlayers( )
 	{
@@ -644,8 +625,7 @@ public class FMain extends JFrame implements ActionListener,
 			CMessageBox.Show( this,
 							  "My first Java database application\n" +
 							  "by Brandin Henize\n\n" +
-							  "Team And Players ... Never Dies!\n" +
-							  "It just gets better with each version.",
+							  "Example of Java database programming.\n\n",
 							  "About",
 							  enuIconType.Information ); 
 		
